@@ -9,3 +9,5 @@ di node twist_mux juga terdapat parameter last_msgs yang menyimpan pesan terakhi
 
 cara kerjanya, setiap 0.5 sec akan menjalankan fungsi cmd_pub yang terdapat logic perulangan dari array priorities, logic ini akan memeriksa kalau pesan ada dan selisih waktu dengan pesan terakhir kurang dari timeout (0.5sec), maka akan mempublish msgs nya ke /cmd_vel dan type nya ke /cmd_type dan langsung break loopnya...
 
+command untuk menjalankannya:
+- ros2 launch pkg_17524060 launch.py
