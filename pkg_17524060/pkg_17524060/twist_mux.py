@@ -55,7 +55,7 @@ class TwistMux(Node):
             'autonomous': None,
         }
 
-        self.create_timer(0.5, self.cmd_pub)  # 10 Hz
+        self.create_timer(0.5, self.cmd_pub)
 
 
     def key_callback(self, msg):
