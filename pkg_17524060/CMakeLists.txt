@@ -12,8 +12,13 @@ find_package(ament_cmake REQUIRED)
 # find_package(<dependency> REQUIRED)
 
 install(PROGRAMS
-  ${PROJECT_NAME}/autonomous_to_cmd_bridge.py
+  ${PROJECT_NAME}/twist_mux.py
   DESTINATION lib/${PROJECT_NAME}
+)
+
+install(DIRECTORY
+  launch
+  DESTINATION share/${PROJECT_NAME}/  
 )
 
 if(BUILD_TESTING)
