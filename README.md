@@ -1,6 +1,6 @@
 saya membuat file Node twist_mux.py yang berfungsi sebagai multiflexer
 
-di node twist_mux terdapat parameter priorities sebagai prioritas topic yang bakal diteruskan ke node cmd_vel dan cmd_type 
+di node twist_mux terdapat parameter priorities sebagai prioritas topic yang bakal diteruskan ke cmd_vel dan cmd_type 
 
 alur kerjanya:
 ![diagram](diagram.png)
